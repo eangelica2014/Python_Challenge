@@ -10,3 +10,8 @@ Dashboard for Mr. Mummy to moniter his income. Once the scheme starts, Mr. Mummy
 * New Recruits: Shows the list of new members recruited this week.
 * Eliminated: Shows the list of members eliminated from the scheme, as their tenure ran out.
 * Withdrawn: Shows the list of members, who left the program deliberately (modeled through a random probability generated from unifrom random distribution and marking the member for withdrawal if this is greator than a threshold(0.85)).
+
+**Libraries Used:**
+* Flask
+* Dash
+* Sqlite3
