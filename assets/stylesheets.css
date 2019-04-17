@@ -1,0 +1,99 @@
+.banner {
+    height: 70px;
+    /* margin: -10px -10px 10px; */
+    margin-top: 5px;
+    padding-top: 10px;
+    background-color: rgb(103,181,97,0.2);
+    border-style: solid;
+    border-radius: 1cm;
+}
+
+.modebar{
+    display: none !important;
+}
+
+._dash-undo-redo {
+    display: none;
+}
+
+#recr_div, #elim_div, #with_div{
+    border-style: solid;
+    border-radius: 1cm;
+    overflow: hidden;
+    padding: 0px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.rec_text{
+    color: rgb(84, 250, 84);
+    font-weight: bold;
+}
+
+.elim_text{
+    color: grey;
+    font-weight: bold;
+}
+
+.with_text{
+    color: red;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+#stats_div{
+    border-style: solid;
+    border-radius: 1cm;
+    overflow: hidden;
+    padding: 0px;
+    max-height: 400px;
+}
+#fig_div{
+    border-style: solid;
+    border-radius: 1cm;
+    overflow: hidden;
+    padding: 0px;
+    /* margin-left: 10px; */
+    /* max-height: 400px; */
+}
+
+.no-gutter {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+
+    & > [class^="col-"],
+    & > [class*=" col-"] {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  }
+
+.card-title{
+    background-color: rgb(103,181,97,0.2);
+    height:40px;
+    margin: 0px;
+    border-bottom: solid;
+}
+
+.banner h2{
+    color: rgb(0, 0, 0);
+    padding-top: -5px;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.banner Img{
+    position: relative;
+    float: right;
+    right: 10px;
+    height: 70px;
+}
